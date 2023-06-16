@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -19,7 +23,7 @@ p {
 }
 
 .margin-75 {
-  margin: 75px 0;
+  margin: 125px 0;
 }
 
 .footer a {
@@ -27,4 +31,19 @@ p {
   font-size: 20px;
   margin-left: 10px;
   color: #000;
+}
+
+.country-card {
+  margin-bottom: 25px;
+}
+
+.country-card img {
+  height: 170px;
+  width: 100%;
+  border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+}
+
+.country-card small {
+  display: block;
+  font-size: 16px;
 }

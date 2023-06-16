@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap"
 function Footer() {
     return (
         <div className="border-top py-3 fixed-bottom bg-white">
-            <Container fluid>
-                <div className="footer mx-5 d-flex justify-content-between align-items-center">
+            <Container>
+                <div className="footer   d-flex justify-content-between align-items-center">
                     <div>
                         <p><strong>1999 - 2023 © All rights reserved by NDevs.</strong></p>
                     </div>

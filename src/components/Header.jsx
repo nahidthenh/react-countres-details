@@ -3,7 +3,7 @@ import { Container, Navbar } from "react-bootstrap"
 function Header() {
     return (
         <Navbar className="border-bottom py-3 fixed-top bg-white">
-            <Container fluid className="mx-5">
+            <Container className=" ">
                 <Navbar.Brand href="#home">
                     <h4><b>React Countries Details</b></h4>
                 </Navbar.Brand>

@@ -1,4 +1,6 @@
 import { useLoaderData } from "react-router-dom"
+import Country from "./Country";
+import { Col, Container, Row } from "react-bootstrap";
 
 
 
@@ -7,13 +9,20 @@ function Home() {
     const countres = useLoaderData()
     console.log(countres);
     return (
-        <div className="margin-75">
-            Total Country: {countres.length}
-
-            {
-                countres.map(country => (<li key={country.id}>{country.name.common}</li>))
-            }
-        </div>
+        <Container  >
+            <Row className="margin-75">
+                {
+                    countres.map(country => (
+                        <Col key={country.cca3} xl={3} lg={6} >
+                            <Country
+                                country={country}
+                            >
+                            </Country>
+                        </Col>
+                    ))
+                }
+            </Row>
+        </Container>
     )
 }
 
