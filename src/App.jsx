@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Home from './components/Home';
 import Main from './layout/Main';
+import CountryDetails from './components/CountryDetails';
 
 function App() {
 
@@ -18,9 +19,27 @@ function App() {
             return fetch('https://restcountries.com/v3.1/all');
           },
           element: <Home></Home>
+        },
+        {
+          path: '/home',
+          loader: async () => {
+            return fetch('https://restcountries.com/v3.1/all');
+          },
+          element: <Home></Home>
+        },
+        {
+          path: '/details',
+          // loader: async () => {
+          //   return fetch('https://restcountries.com/v3.1/all');
+          // },
+          element: <CountryDetails></CountryDetails>
         }
       ]
     },
+    {
+      path: '*',
+      element: <div>404 Page not found !</div>
+    }
   ]);
   return (
     <>

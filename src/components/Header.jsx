@@ -1,12 +1,16 @@
 import { Container, Navbar } from "react-bootstrap"
+import { Link } from "react-router-dom"
 
 function Header() {
     return (
         <Navbar className="border-bottom py-3 fixed-top bg-white">
             <Container className=" ">
-                <Navbar.Brand href="#home">
+                {/* <Navbar.Brand to="/home">
+                  
+                </Navbar.Brand> */}
+                <Link to='/home'>
                     <h4><b>React Countries Details</b></h4>
-                </Navbar.Brand>
+                </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
                 <Navbar.Collapse className="justify-content-end">
