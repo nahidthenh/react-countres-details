@@ -1,8 +1,13 @@
+import { Container } from "react-bootstrap"
 
 
 function Home() {
     return (
-        <div>Home</div>
+        <div>
+            <Container className="bg-danger">
+                <h1>Hello World</h1>
+            </Container>
+        </div>
     )
 }
 
