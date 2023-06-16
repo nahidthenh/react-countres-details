@@ -47,3 +47,37 @@ p {
   display: block;
   font-size: 16px;
 }
+
+.details-flag img {
+  width: 500px;
+  border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.border-list button {
+  margin-right: 10px;
+  cursor: grab;
+  padding: 8px 30px;
+  border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  border-radius: 5px;
+  background-color: #fafafa;
+  color: #111517;
+  box-shadow: 0 7px 29px 0 rgba(100, 100, 111, .2);
+}
+
+.back-btn {
+  position: relative;
+  width: 95px;
+  height: 28px;
+  text-align: center;
+  background-color: #fafafa;
+  color: #111517;
+  font-size: 13px;
+  font-weight: 300;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .24);
+  transition: background-color 1s ease-in-out;
+  margin-bottom: 30px;
+}

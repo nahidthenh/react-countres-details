@@ -9,7 +9,7 @@ function Header() {
                   
                 </Navbar.Brand> */}
                 <Link to='/'>
-                    <h4><b>React Countries Details</b></h4>
+                    <h4><b>Home</b></h4>
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
