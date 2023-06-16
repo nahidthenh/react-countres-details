@@ -21,17 +21,10 @@ function App() {
           element: <Home></Home>
         },
         {
-          path: '/home',
-          loader: async () => {
-            return fetch('https://restcountries.com/v3.1/all');
+          path: '/details/:id',
+          loader: async ({ params }) => {
+            return fetch(`https://restcountries.com/v3.1/alpha/${params.id}`);
           },
-          element: <Home></Home>
-        },
-        {
-          path: '/details',
-          // loader: async () => {
-          //   return fetch('https://restcountries.com/v3.1/all');
-          // },
           element: <CountryDetails></CountryDetails>
         }
       ]
