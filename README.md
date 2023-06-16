@@ -1,13 +1,12 @@
 ### `About This App`
 
-Building any type of landing page using React is a good way to learn as a beginner. This project focuses more on building the UI and making it interactive. The landing page should have a navbar, a hero section, also other sections footer section and route of course.
+The project i built is a country app that utilizes React Router DOM for dynamic routing and the REST Countries API to display data about countries around the world. The app allows users to navigate between different pages displaying information about specific countries, including their flag, population, currency, language, and more. The dynamic routing functionality enables the app to fetch data for each country based on its unique code in the API. By utilizing the REST Countries API, the app can provide accurate and up-to-date information about countries without manually inputting data. Overall, this project demonstrates your proficiency in building web applications with React and integrating external APIs to enhance functionality and user experience.
 
-This type of project shows that i'm comfortable with React and i can build good-looking landing pages .
 
 ### `View Demo`
 
-[https://ictcare.netlify.app/](https://ictcare.netlify.app/)
+[https://react-countres-details.vercel.app/](https://react-countres-details.vercel.app/)
 
 
 ### `App Screen Shot`
-![Screenshot](./appss.png)"# raw-ictcare" 
+![Screenshot](./appss.png)"# Country Details" 
