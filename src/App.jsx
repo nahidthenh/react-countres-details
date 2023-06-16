@@ -14,6 +14,9 @@ function App() {
       children: [
         {
           path: '/',
+          loader: async () => {
+            return fetch('https://restcountries.com/v3.1/all');
+          },
           element: <Home></Home>
         }
       ]
