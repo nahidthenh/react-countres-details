@@ -1,5 +1,6 @@
 {
   "name": "country-details",
+  "homepage": "https://react-countres-details.vercel.app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
